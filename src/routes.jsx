@@ -9,7 +9,7 @@ import VerifyCode from './component/verifycode/VerifyCode';
 import ResetPassword from './component/resetpassword/ResetPassword';
 import Forgetpassword from "./component/forgetpassword/Forgetpassword";
 import Product from './pages/product/Product';
-import MainLayout from "./layout/MainLayout.jsx";
+import Mainlayout from "./layout/Mainlayout.jsx";
 import Checkout from "./pages/checkout/Checkout";
 import ProtectedRouter from './component/protectedrouter/ProtectedRouter';
 
@@ -17,7 +17,7 @@ import ProtectedRouter from './component/protectedrouter/ProtectedRouter';
 const routes = createHashRouter([
   {
     path: '/',
-    element: <MainLayout />,
+    element: <Mainlayout />,
     errorElement: <Errorpage />,
     children: [
       {
