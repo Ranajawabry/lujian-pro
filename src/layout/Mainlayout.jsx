@@ -7,7 +7,7 @@ import CartContextProvider from '../context/CartContext';
 import { useLocation } from 'react-router';
 import Hero from '../component/hero/Hero';
 
-function MainLayout() {
+function Mainlayout() {
   const location = useLocation();
   const hiddenRoutes = ['/checkout'];
   const hideLayout = hiddenRoutes.includes(location.pathname);
