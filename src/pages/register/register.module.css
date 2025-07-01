@@ -1,0 +1,15 @@
+
+.generalStyle{
+    background: #ffffff;
+    border: 2px solid blue;
+    padding: 20px;
+      margin-top:20px;
+     
+}
+.customLabel {
+  position: relative;
+  transform: none;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #333;
+}
